@@ -102,7 +102,7 @@ module.exports = async (name) => {
 };
 ```
 
-### 加载进度 -
+### 加载进度 - ora
 
 ```js
 async function clone(repo, desc) {
@@ -234,7 +234,7 @@ inquirer.prompt(promptList).then(async (result) => {
 });
 ```
 
-## 3. 安装依赖
+## 3. 安装依赖 - spawn
 
 封装 spawn 函数，通过子线程来做我们的安装依赖；
 
@@ -276,7 +276,7 @@ module.exports = async (name) => {
 
 ```
 
-## 4. 自动启动界面
+## 4. 自动启动界面 -open
 
 - open: 打开浏览器
 
